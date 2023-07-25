@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/components/*": [
+        "src/components/*"
+      ],
+      "@/data/*": [
+        "src/data/*"
+      ],
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "src/sections/s_Mit_Hero/index.js",
+    "src/sections/s_RefactorProfit/index.js", "src/sections/s_ModalLead/index.js", "src/components/с_SuccessLead/index.js", "src/sections/s_Mit_Form/index.js",
+    "src/sections/s_Mit_Info_Video/index.js", "src/sections/s_Territory/c_TerritoryBlocks/index.js", "src/sections/s_Territory/index.js", "src/sections/s_Advantages/index.js", "src/sections/s_Advantages/c_Blocks/index.js", "src/sections/s_Advantages/c_Blocks/c_Pagination/index.js", "src/sections/s_Advantages/c_Blocks/c_Slider/index.js", "src/sections/s_StoneStandarts/index.js", "src/sections/s_StoneStandarts/c_SliderElement/index.js", "src/sections/s_Mit_Investment/index.js", "src/components/c_LogoMit/index.js", "src/sections/s_StoneStandarts/c_Slider/index.js", "src/components/c_MitButton/index.js", "src/sections/s_Territory/c_Popup/index.js", "src/sections/s_Territory/c_PopupSituationPlan/index.js", "src/sections/s_Territory/c_TerritoryBlocks/c_Pagination/index.js", "src/sections/s_Territory/c_TerritoryBlocks/c_Slider/index.js", "src/sections/s_Plans/index.js", "src/sections/s_Plans/c_Tower_d_plans/c_Floors/index.js", "src/sections/s_Plans/c_Tower_d_plans/c_Pagination/index.js", "src/sections/s_Plans/c_Tower_d_plans/c_Situation_Plan/index.js", "src/sections/s_Plans/c_Tower_d_plans/c_Slider_plans/index.js", "src/sections/S_Mit_PlansSlider/index.js", "src/sections/s_Plans/c_Tower_d_plans/index.js", "src/sections/s_Mit_PageNotFound/index.js", "src/sections/s_Mit_Hero/index.js", "src/components/s_Mit_Footer/index.js", "src/components/s_Mit_Footer/с_FooterContacts/index.js", "src/components/s_Mit_Footer/c_Social/index.js", "src/components/s_Mit_Footer/c_PhoneContacts/index.js", "src/components/s_Mit_Footer/c_FooterNavigation/index.js", "src/components/s_Mit_Footer/c_Copyright/index.js", "src/components/s_Mit_Footer/c_Address/index.js", "src/sections/s_Svl_Hero/index.js", "src/components/c_SvlButton/index.js", "src/sections/S_Svl_Profit/index.js", "src/sections/S_Svl_Profit/c_InvestmentCard/index.js", "src/sections/S_Svl_Profit/c_InvestmentList/index.js", "src/sections/S_Svl_Profit/c_InvestmentSlider/index.js", "src/sections/S_Svl_PlansSlider/index.js", "src/sections/s_Svl_Plans/index.js", "src/sections/s_Svl_Plans/c_Tower_d_plans/index.js", "src/sections/s_Svl_Plans/c_Tower_d_plans/c_Slider_plans/index.js", "src/sections/s_Svl_Plans/c_Tower_d_plans/c_Situation_Plan/index.js", "src/sections/s_Svl_Plans/c_Tower_d_plans/c_Pagination/index.js", "src/sections/s_Svl_Plans/c_Tower_d_plans/c_Floors/index.js", "src/sections/s_Svl_Plans/c_PopupSituationPlan/index.js", "src/sections/s_Svl_Territory/index.js", "src/sections/s_Svl_Territory/c_TerritoryBlocks/index.js", "src/sections/s_Svl_Territory/c_TerritoryBlocks/c_Pagination/index.js", "src/sections/s_Svl_Territory/c_PopupSituationPlan/index.js", "src/sections/s_Svl_Territory/c_Popup/index.js", "src/sections/s_Svl_Territory/c_TerritoryBlocks/c_Slider/index.js", "src/sections/s_Svl_Diary/index.js", "src/sections/s_Svl_Advantages/index.js", "src/sections/s_Svl_Advantages/c_Blocks/index.js", "src/sections/s_Svl_Advantages/c_Blocks/c_Slider/index.js", "src/sections/s_Svl_Advantages/c_Blocks/c_Pagination/index.js", "src/components/с_SvlSuccessLead/index.js", "src/sections/s_Svl_HealthyBuilding/index.js", "src/sections/s_Svl_StoneStandarts/index.js", "src/sections/s_Svl_StoneStandarts/c_SliderElement/index.js", "src/sections/s_Svl_StoneStandarts/c_Slider/index.js", "src/components/c_TwsSuccessLead/index.js", "src/sections/s_Twsd_Hero/index.js",
+    "pages/stone_tower_d/index.js", "src/sections/s_Twsd_Form/index.js", "src/sections/s_Twsd_Investment/index.js", "src/sections/s_Twsd_Plans/c_Tower_d_plans/index.js", "src/sections/s_Twsd_Profit/index.js", "src/sections/s_Twsd_Territory/index.js", "src/sections/s_Twsd_Territory/c_TerritoryBlocks/index.js", "src/sections/s_PageError/index.js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
